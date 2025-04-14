@@ -10,6 +10,8 @@
     font-family: futura, sans-serif;
 }
 
+
+
 #mainDiv {
     width: 100vw;
     height: 100vh;
@@ -17,13 +19,35 @@
 }
 
 .imageBG {
-    width: 25%;
+    width: 30%;
     height: auto;
-    background-image: url('./images/moon.jpg');
+    background-image: url('./images/space.jpg');
     background-size: cover;
     background-position: center;
 }
+#logoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#imageContainer {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+#odinLogo {
+    width: 25%;
+    height: auto;
+}
+
+#imageCredit {
+    color: #95bdd0;
+}
 .formContainer {
     display: flex;
     flex-direction: column;
