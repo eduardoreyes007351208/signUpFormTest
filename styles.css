@@ -58,30 +58,31 @@
     gap: 16px;
 }
 .formHeading {
-    font-size: 20px;
+    font-size: 1.66rem;
     padding-bottom: 16px;
 }
 .labels {
-    font-size: 16px;
+    font-size: 1.33rem;
 }
 .inputs {
     width: min(250px, 100%);
     border: 1px solid #E5E7EB;
     border-radius: 5px;
-    padding: 4px 0px;
+    padding: 8px 4px;
+    font-size: 1.33rem;
 }
 .inputs:focus {
-    outline: 1px solid #1D4ED8;
+    outline: 2px solid #1D4ED8;
     box-shadow: 5px 5px 5px #E5E7EB;
 }
 .inputs:invalid {
-    outline: 1px solid #B91C1C;
+    outline: 2px solid #B91C1C;
 }
 #textContainer {
     width: 65%;
 }
 #text {
-    font-size: 28px;
+    font-size: 2.33rem;
 }
 .textSection {
     padding: 32px 0px 32px 32px;
@@ -102,6 +103,34 @@
 #form {
     background-color: #ffffff;
     width: 100%;
+}
+
+#create {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+#createBtn {
+    width: 200px;
+    height: 50px;
+    font-size: 1.33rem;
+    background-color: #3F6179;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #dddddd;
+}
+#createBtn:hover {
+    cursor: pointer;
+}
+#loginText {
+    font-size: 1.33rem;
+}
+#loginLink {
+    text-decoration: none;
+    color: #3F6179;
+    font-weight: bold;
+    font-style: italic;
 }
 
 h2 {
