@@ -34,7 +34,8 @@
 #imageContainer {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    padding: 8px;
+
+    padding: 16px 0px;
     display: flex;
     justify-content: center;
 }
@@ -138,4 +139,8 @@ h2 {
 body {
     margin: 0px;
     padding: 0px;
+}
+html {
+    margin: 0px;
+    padding: 0px
 }
