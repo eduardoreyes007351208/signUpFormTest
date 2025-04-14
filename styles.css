@@ -16,6 +16,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    background-color: #F9FAFB;
 }
 
 .imageBG {
@@ -48,9 +49,22 @@
 #imageCredit {
     color: #95bdd0;
 }
+
+#formDiv {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
 .formContainer {
     display: flex;
     flex-direction: column;
+}
+
+#form {
+    background-color: #ffffff;
+    width: 100%;
 }
 
 input {
